@@ -1,0 +1,32 @@
+
+/* caudex-regular - latin */
+@font-face {
+    font-family: 'Caudex';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/caudex-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/caudex-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/caudex-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/caudex-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/caudex-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/caudex-v10-latin-regular.svg#Caudex') format('svg'); /* Legacy iOS */
+  }
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #4c5b61;
+}
+h1{
+    font-family: 'Caudex';
+    font-style: normal;
+    font-weight: 400;
+    color: #474747;
+
+}
+.body{
+    font-family: 'Caudex';
+    background-color: #4c5b61
+}
