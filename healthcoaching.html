@@ -1,0 +1,151 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Emily Okie</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    
+
+    <!-- Custom styles for this template -->
+    <link href="css\stylesEmily.css" rel="stylesheet">
+    <link href="css\album.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <h1 class="jumbotron-heading">Hello, I am Emily.</h1>
+              <p class="d-flex flex-row h4Info p">A professional problem solver with a dynamic skillset.</p>
+                <div class = "col-8 mx-auto">
+                    <div class="nav">
+                        <div class = "btn btn-group radio">
+                            <a href="resumeIndex.html" class="btn btn-primary my-2">Digital Design & DEV</a>
+                            <a href="yoga.html" class="btn btn-primary my-2 my-auto">Yoga</a>
+                            <a href="healthCoaching.html" class="btn btn-primary my-2">Health Coaching</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="/resumeIndex.html" class="navbar-brand d-flex align-items-center">
+            <i class="px-1 fa fa-address-card"></i>
+            <strong>Emily Okie</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <div class ="row">
+        <div class = "col p-5">
+          
+          <strong>So, What is it exactly?</strong>
+          <p>A Health Coach is a supportive mentor and wellness authority who helps others feel their best through individualized food and lifestyle changes that meet their unique needs and health goals. Often times, Health Coaches provide their services in private coaching practices, either working one-on-one with clients or and facilitating a group coaching program. </p>
+          <cite href="https://www.integrativenutrition.com/blog/what-does-a-health-coach-do">https://www.integrativenutrition.com/blog/what-does-a-health-coach-do</cite>
+        </div>
+      </div>
+      <form class="p-5">
+        <div class="form-group row">
+            <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+            <div class="col-5 col-md-3">
+                <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+            </div>
+            <div class="col-7">
+                <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="email" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+            </div>
+        </div>
+        <!--<div class="form-group row">
+          
+            <div class="col offset-md-2">
+                May we contact you?
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                    <label for="contactYes" class="form-check-label">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                    <label for="contactNo" class="form-check-label">No</label>
+                </div>
+            </div>
+        </div>-->
+        <div class="form-group row">
+            <label for="feedback" class="col-md-2 col-form-label">Information</label>
+            <div class="col-md-10">
+                <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </form>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p class= "col-8">Thank you for taking the time to learn more about me. I look forward to learning more about your business and how I can help it grow.</p>
+        </p>
+      </div>
+    </footer>
+
+  
+
+     <!-- build:js js/main.js-->
+     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <script src="js/scripts.js"> </script>
+
+     <!--endbuild-->
+
+  </body>
+</html>
