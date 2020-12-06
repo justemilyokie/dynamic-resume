@@ -31,22 +31,73 @@
 
     <header>
       <div class="collapse bg-dark" id="navbarHeader">
-          <div class="container">
-            <div class="row">
-              <h1 class="jumbotron-heading">Hello, I am Emily.</h1>
-              <p class="d-flex flex-row h4Info p">A professional problem solver with a dynamic skillset.</p>
-                <div class = "col-8 mx-auto">
-                    <div class="nav">
-                        <div class = "btn btn-group radio">
-                            <a href="resumeIndex.html" class="btn btn-primary my-2">Digital Design & DEV</a>
-                            <a href="yoga.html" class="btn btn-primary my-2 my-auto">Yoga</a>
-                            <a href="healthCoaching.html" class="btn btn-primary my-2">Health Coaching</a>
-                        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4 text-white">
+              <h4 class="text-white">Contact Me</h4>
+              <form>
+                <div class="form-group row">
+                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
                     </div>
                 </div>
-              </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                    <div class="col-md-10">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                    <div class="col-5 col-md-3">
+                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                    </div>
+                    <div class="col-7">
+                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-form-label">Email</label>
+                    <div class="col-md-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                    </div>
+                </div>
+                <!--<div class="form-group row">
+                  
+                    <div class="col offset-md-2">
+                        May we contact you?
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                            <label for="contactYes" class="form-check-label">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                            <label for="contactNo" class="form-check-label">No</label>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="form-group row">
+                    <label for="feedback" class="col-md-2 col-form-label">Information</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Facebook Coming Soon</a></li>
+              </ul>
+            </div>
           </div>
-        
+        </div>
       </div>
       <div class="navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
@@ -60,12 +111,44 @@
         </div>
       </div>
     </header>
+    <section class="jumbotron text-center">
+      <div class="container">
+        <div class="col">
+        <h1 class="jumbotron-heading">Hello, I am Emily.</h1>
+        <p class="mx-auto text-white">I empower people to improve themselves.</p>
+      </div>
+      </div>
+    </section>
+    <div class = "col-12 bg-orange">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="resumeIndex.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="yoga.html">Yoga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="healthcoaching.html">Health Coaching</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <main role="main">
+      <div class="row ">
+       <h1 class="p-5 pb-0"> Fill out the form for a Health Coaching consultation:</h1>
+      </div>
       <div class ="row">
         <div class = "col p-5">
-          
-          <strong>So, What is it exactly?</strong>
+          <h2>What is it exactly?</h2>
           <p>A Health Coach is a supportive mentor and wellness authority who helps others feel their best through individualized food and lifestyle changes that meet their unique needs and health goals. Often times, Health Coaches provide their services in private coaching practices, either working one-on-one with clients or and facilitating a group coaching program. </p>
           <cite href="https://www.integrativenutrition.com/blog/what-does-a-health-coach-do">https://www.integrativenutrition.com/blog/what-does-a-health-coach-do</cite>
         </div>

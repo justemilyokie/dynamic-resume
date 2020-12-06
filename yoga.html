@@ -99,37 +99,51 @@
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-          <a href="/resumeIndex.html" class="navbar-brand d-flex align-items-center">
-            <i class="px-1 fa fa-address-card"></i>
-            <strong>Emily Okie</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+      <div class = "col-12 bg-dark">
+        <div class="navbar navbar-dark box-shadow">
+          <div class="container d-flex justify-content-between">
+            <a href="/resumeIndex.html" class="navbar-brand d-flex align-items-center">
+              <i class="px-1 fa fa-address-card"></i>
+              <strong>Emily Okie</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </div>
-      </div>
+        </div>
     </header>
-
-    <main role="main">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Hello, I am Emily.</h1>
+        <p class="mx-auto text-white">A yoga instructor.</p>
+        
+      </div>
+    </section>
+    <div class = "col-12 bg-orange">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       
-      <section class="jumbotron text-center">
-        <div class="container">
-          <h1 class="jumbotron-heading">Hello, I am Emily.</h1>
-          <p class="mx-auto">A Yoga Instructor</p>
-            <div class = "col-8 mx-auto">
-                 <div class="nav">
-                    <div class = "btn btn-group radio">
-                        <a href="resumeIndex.html" class="btn btn-primary my-2">Digital Design & DEV</a>
-                        <a href="yoga.html" class="btn btn-primary my-2">Yoga</a>
-                        <a href="healthCoaching.html" class="btn btn-primary my-2">Health Coaching</a>
-                    </div>
-                </div>
-            </div>
+        <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="resumeIndex.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="yoga.html">Yoga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="healthcoaching.html">Health Coaching</a>
+            </li>
+            </li>
+          </ul>
         </div>
-
-      </section>
+      </nav>
+    </div>
+    <main role="main">
 
       <div class ="container" >
           <div class ="row p-5">
@@ -138,22 +152,21 @@
               </div>
           </div>
         </div>
-
-      <div class = "container">
-        <div class = "row">
-          <div class = "col-4">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="img\lunge.PNG" alt="Gentle Therapeutic">
-              <div class="card-body">
-                <h5 class="card-title">Gentle Therapeutic</h5>
-                <p class="card-text">My class is called Gentle Therapeutic and it's all about using yoga to help contradict the negative effects of modern life on our bodies and our health in general. Foundational strength, core awareness, activation awareness and breaking the bad habits.</p>
-                <button onclick=" window.open('https://youtu.be/-AKv3WkmZAI', '_blank'); return false;" class="btn btn-primary">60 Minute GT</button>
+        
+        <div class="container container-fluid">
+          <div class="row">
+            <div class="col-sm">
+              <div class="card">
+                <img class="card-img-top" src="img\lunge.PNG" alt="Gentle Therapeutic">
+                <div class="card-body">
+                  <h5 class="card-title">Gentle Therapeutic</h5>
+                  <p class="card-text">My class is called Gentle Therapeutic and it's all about using yoga to help contradict the negative effects of modern life on our bodies and our health in general. Foundational strength, core awareness, activation awareness and breaking the bad habits.</p>
+                  <button onclick=" window.open('https://youtu.be/-AKv3WkmZAI', '_blank'); return false;" class="btn btn-primary">60 Minute GT</button>
+                </div>
               </div>
             </div>
-            </div>
-
-            <div class = "col-4">
-                <div class="card" style="width: 18rem;">
+              <div class = "col-sm">
+                <div class="card">
                   <img class="card-img-top" src="img\30minprenatal.PNG" alt="Prenatal">
                   <div class="card-body">
                     <h5 class="card-title">Prenatal</h5>
@@ -162,21 +175,21 @@
                   </div>
                 </div>
             </div>
-
-            <div class = "col">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img\15minheartratelift.PNG" alt="Vinyasa">
-                <div class="card-body">
-                  <h5 class="card-title">Vinyasa Flow</h5>
-                  <p class="card-text">My vinyasa classes are throrough and powerful while refreshing at the same time.</p>
-                  <button onclick=" window.open('https://youtu.be/BdEkSJC4sVM', '_blank'); return false;" class="btn btn-primary">15 Min Vinyasa</button>
+          
+            
+              <div class = "col-sm">
+                <div class="card">
+                  <img class="card-img-top" src="img\15minheartratelift.PNG" alt="Vinyasa">
+                  <div class="card-body">
+                    <h5 class="card-title">Vinyasa Flow</h5>
+                    <p class="card-text">My vinyasa classes are throrough and powerful while refreshing at the same time.</p>
+                    <button onclick=" window.open('https://youtu.be/BdEkSJC4sVM', '_blank'); return false;" class="btn btn-primary">15 Min Vinyasa</button>
+                  </div>
                 </div>
-              </div>
+            </div>
+            
           </div>
-
         </div>
-      </div>
-
     </main>
 
     <footer class="text-muted">
